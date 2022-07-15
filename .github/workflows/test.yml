@@ -26,4 +26,5 @@ jobs:
           format: list
           query: 'label:beta-2002'
           token: ${{ github.token }}
-          run: echo ${{ steps.temp.outputs}}
+          path: 'testblog/sample'
+
