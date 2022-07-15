@@ -20,8 +20,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: List out-of-office issues
+        id: temp
         uses: lee-dohm/select-matching-issues@v1
         with:
           format: list
           query: 'label:beta-2002'
           token: ${{ github.token }}
+          run: echo ${{ steps.temp.outputs}}
