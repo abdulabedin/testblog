@@ -26,5 +26,5 @@ jobs:
           format: list
           query: 'label:beta-2002'
           token: ${{ github.token }}
-          path: 'testblog/sample'
+          path: 'abdulabedin/testblog/sample'
 
