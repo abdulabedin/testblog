@@ -27,5 +27,5 @@ jobs:
           query: 'label:beta-2002'
           token: ${{ github.token }}
 #           path: 'abdulabedin/testblog/sample'
-          run: cat ${{ steps.temp.outputs.path }}
+          run:  echo ${{ steps.temp.outputs }}
 
